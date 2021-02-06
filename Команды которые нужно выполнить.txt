@@ -1,0 +1,28 @@
+git init (инициализация локального Git-репозитория)
+
+git add . (добавить все файлы в локальный Git-репозиторий)
+
+git status (проверить их статус)
+
+git commit -m "Все файлы" (сделать коммит с комментарием "Все файлы")
+
+git branch blog (создать ветку "blog")
+
+git branch (показать созданные ветки)
+
+git checkout blog (перейти в ветку "blog")
+
+git add blog (добавить папку blog с файлами index.html, index.js)
+
+git status (проверить их статус)
+
+git commit -m "Все файлы для блога" (сделать коммит с комментарием "Все файлы для блога")
+
+git checkout master (перейти на основную ветку)
+
+git remote add origin *URL-адрес вашего репозитория*
+(У меня было так: git remote add origin https://github.com/nightofpromises/git-homework.git) (подключиться к удаленному репозиторию)
+
+git push -u origin master (все файлы из основной ветки загрузить в удаленный репозиторий)
+
+Адрес моего Git-репозитория (удаленного): https://github.com/nightofpromises/git-homework
